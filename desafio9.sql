@@ -1,2 +1,2 @@
 SELECT notes FROM purchase_orders
-WHERE notes IS null;
+WHERE notes IS NOT null;
